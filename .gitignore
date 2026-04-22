@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Uploads (keep folder, ignore actual files)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+next_error.log
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
